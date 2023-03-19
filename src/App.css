@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+/* @import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP"); */
+
+.App {
+  /* text-align: center; */
+  background-color: #727171;
+  font-family: "Sawarabi Mincho", sans-serif;
+  /* font-family: "Noto Serif JP", sans-serif; */
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.amplify-button[data-variation="primary"] {
+  background: gray;
+}
+
+.table-font-color {
+  color: white;
+  table-layout: fixed;
+  font-size: 11px;
+}
+
+.table-font {
+  font-size: 11px;
+}
+
+.rbc-today {
+  background-color: #bab6b6 !important;
+}
